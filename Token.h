@@ -1,6 +1,10 @@
 #ifndef TOKEN_H
 #define TOKEN_H
-
+char op_aritmetico[4]={'+','-','*','/'}; 
+char op_relacional[6]={'<','>','<=','>=','=','<>'}; 
+char *key[]={"begin","end","if","then","else","while", "do","until","repeat", "integer", "real", "all", "and", "or","string", "programa"};
+char *op_booleano[]={"or","and"};
+char especiais[5]={'.',';',')','(',':='};
 /**	
  * 	Enum token_type
  *
